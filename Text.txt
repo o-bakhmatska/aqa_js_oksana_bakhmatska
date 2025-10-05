@@ -1,0 +1,5 @@
+1. Git is tool
+2. Tracks file changes
+3. Manages project history
+4. Developers use daily
+5. Distributed version control
