@@ -3,3 +3,15 @@
 3. Manages project history
 4. Developers use daily
 5. Distributed version control
+
+6. Repository stores code
+7. Commits save snapshots
+8. Branches create experiments
+9. Merge combines work
+10. Conflicts need resolve
+
+11. Staging area buffer
+12. Index before commit
+13. Reset moves head
+14. Hard reset dangerous
+15. Soft reset safe
