@@ -3,3 +3,45 @@
 3. Manages project history
 4. Developers use daily
 5. Distributed version control
+
+16. Mixed reset default
+17. Checkout switches branch
+18. Clone copies repo
+19. Pull gets updates
+20. Push shares changes
+
+21. Fetch downloads commits
+22. Rebase rewrites history
+23. Tag marks versions
+24. Log shows commits
+25. Status shows state
+
+26. Diff shows changes
+27. Init starts repo
+28. Add stages files
+29. Rm removes files
+30. Mv renames files
+
+31. Ignore hides files
+32. Remote adds origin
+33. Origin main server
+34. Fork copies project
+35. Upstream original source
+
+36. SHA identifies commit
+37. Head points latest
+38. Detached head state
+39. Amend fixes commit
+40. Cherry pick commit
+
+41. Bisect finds bug
+42. Reflog records moves
+43. Blame shows authors
+44. Config sets user
+45. Alias short commands
+
+46. Branch naming convention
+47. Main default branch
+48. Master old name
+49. Feature branch work
+50. Hotfix urgent bug
