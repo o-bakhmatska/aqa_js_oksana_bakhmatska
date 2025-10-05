@@ -57,3 +57,69 @@
 48. Master old name
 49. Feature branch work
 50. Hotfix urgent bug
+
+51. Release branch prep
+52. Merge fast forward
+53. Squash combine commits
+54. Revert undoes commit
+55. Stash saves work
+
+56. Pop applies stash
+57. Drop deletes stash
+58. Clean removes untracked
+59. GC optimizes repo
+60. Hooks run scripts
+
+61. Pre commit check
+62. Post merge task
+63. Workflow defines process
+64. CI uses git
+65. GitHub hosts repos
+
+66. GitLab alternative host
+67. Bitbucket another host
+68. SSH keys auth
+69. HTTPS access repo
+70. PAT token login
+
+71. Open source free
+72. Cross platform tool
+73. Command line interface
+74. GUI clients exist
+75. VSCode integrates git
+
+76. History tree view
+77. Commit message style
+78. Conventional commits rule
+79. Squash merge option
+80. Fast workflows exist
+
+81. Team collaboration tool
+82. Open pull request
+83. Review code changes
+84. Approve or reject
+85. Merge after review
+
+86. Signed commits verify
+87. GPG keys security
+88. Submodules external repos
+89. Large files LFS
+90. Binary files tricky
+
+91. Tag release version
+92. Semantic versioning common
+93. Rollback old commit
+94. Branch protection rules
+95. Force push danger
+
+96. Keep history clean
+97. Rebase interactive edit
+98. Autosquash fixups easy
+99. Upstream sync branch
+100. Downstream forks update
+
+101. Commit often habit
+102. Push regularly backup
+103. Pull frequently sync
+104. Resolve conflicts carefully
+105. Celebrate merged PR
