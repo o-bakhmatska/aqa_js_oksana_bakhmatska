@@ -12,13 +12,13 @@
 const car1 = {
     brand: "Audi",
     model: "Q8",
-    year: "2023",
+    year: 2023
 };
 
 const car2 = {
     brand: "Mercedes",
     model: "GLA",
-    owner: "Anna Berner",
+    owner: "Anna Berner"
 };
 
 const car3 = {

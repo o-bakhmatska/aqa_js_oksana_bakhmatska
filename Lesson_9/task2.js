@@ -8,7 +8,7 @@
 const book = {
     title: "Javascript",
     author: "David Flanagan ",
-    year: "2020"
+    year: 2020
   };
 
 const {title, author} = book;

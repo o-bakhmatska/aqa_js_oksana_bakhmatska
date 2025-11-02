@@ -3,9 +3,9 @@
 // Зробіть деструктуризацію в циклі
 
 const users = [
-    {name: "Oksana", email: "oksana@example.com", age: "30"},
+    {name: "Oksana", email: "oksana@example.com", age: 30},
     {email: "test@test.com"},
-    {name: "Oleg", age: "36"},
+    {name: "Oleg", age: 36},
     {}
 ]
 for (const {name, email, age} of users){
