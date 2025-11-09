@@ -7,13 +7,13 @@
 // Виведіть оновлений об'єкт person в консоль.
 
 const person = {
-    firstName: "Maria",
-    lastName: "Berger",
-    age: 25
-  };
+	firstName: 'Maria',
+	lastName: 'Berger',
+	age: 25,
+};
 
-person.email = "maria.berger@example.com";
-console.log("Person object with email:", person);
+person.email = 'maria.berger@example.com';
+console.log('Person object with email:', person);
 
 delete person.age;
-console.log("Person object without age:", person);
+console.log('Person object without age:', person);
