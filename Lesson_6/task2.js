@@ -4,13 +4,12 @@
 // Викличте вашу функцію з аргументами 25 і 15, і виведіть результат (чи є особа дорослою) в консоль для кожного випадку.
 
 function legalAge(age) {
-    if (age >= 18) { 
-      return true; 
-    } else { 
-      return false; 
-    }
-  }
+	if (age >= 18) {
+		return true;
+	} else {
+		return false;
+	}
+}
 
 console.log(legalAge(25));
 console.log(legalAge(15));
-

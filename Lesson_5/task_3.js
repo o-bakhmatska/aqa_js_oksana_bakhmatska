@@ -4,17 +4,15 @@
 //Використовуючи цикл for, створіть таблицю множення для обраного числа від 1 до 10. Виведіть результат в консоль.
 //Використовуючи цикл while створіть аналогічну таблицю множення та виведіть її в консоль.
 
-let number = 3
-console.log("Таблиця множення через цикл for");
+let number = 3;
+console.log('Таблиця множення через цикл for');
 for (let i = 1; i <= 10; i++) {
-  console.log(number + " x " + i + " = " + (number * i));
+	console.log(number + ' x ' + i + ' = ' + number * i);
 }
 
-console.log("\nТаблиця множення через цикл while");
+console.log('\nТаблиця множення через цикл while');
 let k = 1;
 while (k <= 10) {
-  console.log(number + " x " + k + " = " + (number * k));
-  k++;
+	console.log(number + ' x ' + k + ' = ' + number * k);
+	k++;
 }
-
-

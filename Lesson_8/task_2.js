@@ -8,5 +8,3 @@
 const num = [1, 2, 3, 4, 5];
 const newNum = num.map((n, index) => n * index);
 console.log(newNum);
-
-

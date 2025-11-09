@@ -5,7 +5,7 @@
 
 const circle_radius = 10;
 let circle_area = Math.PI * Math.pow(circle_radius, 2);
-console.log("Task 4.1 -> " + circle_area.toFixed(2))
+console.log('Task 4.1 -> ' + circle_area.toFixed(2));
 
 // Завдання 4.2
 // Створіть змінну length і присвойте їй числове значення довжини прямокутника
@@ -15,7 +15,7 @@ console.log("Task 4.1 -> " + circle_area.toFixed(2))
 const length = 10;
 const width = 15;
 let rectangle_area = length * width;
-console.log("Task 4.2 -> " + rectangle_area)
+console.log('Task 4.2 -> ' + rectangle_area);
 
 // Завдання 4.3
 // Створіть змінну radius і присвойте їй числове значення радіуса циліндра.
@@ -26,6 +26,4 @@ console.log("Task 4.2 -> " + rectangle_area)
 const cylinder_radius = 10;
 const cylinder_height = 30;
 let cylinder_volume = Math.PI * Math.pow(cylinder_radius, 2) * cylinder_height;
-console.log("Task 4.3 -> " + cylinder_volume.toFixed(2))
-
-
+console.log('Task 4.3 -> ' + cylinder_volume.toFixed(2));
