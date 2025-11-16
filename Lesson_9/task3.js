@@ -10,20 +10,20 @@
 // Виведіть об'єкт car3 в консоль.
 
 const car1 = {
-    brand: "Audi",
-    model: "Q8",
-    year: 2023
+	brand: 'Audi',
+	model: 'Q8',
+	year: 2023,
 };
 
 const car2 = {
-    brand: "Mercedes",
-    model: "GLA",
-    owner: "Anna Berner"
+	brand: 'Mercedes',
+	model: 'GLA',
+	owner: 'Anna Berner',
 };
 
 const car3 = {
-    ...car1,
-    ...car2,
+	...car1,
+	...car2,
 };
 
-console.log(car3); 
+console.log(car3);
