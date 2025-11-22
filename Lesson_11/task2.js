@@ -9,37 +9,38 @@
 //  Присвойте значення отримані від цих виразів до змінних
 
 function getTodo() {
-    return fetch("https://jsonplaceholder.typicode.com/todos/1")
-    .then(response => response.json())
-    .catch(error => {
-        console.error("ERROR in getTodo:", error);
-      });
-  }
-  
-function getUser() {
-    return fetch('https://jsonplaceholder.typicode.com/users/1')
-    .then(response => response.json())
-    .catch(error => {
-        console.error("ERROR in getUser:", error);
-      });
-  }
-  
- 
-const promisesCollection = Promise.all([getTodo(), getUser()])
-promisesCollection.then(([todo, user]) => {
-    console.log("RESULT Promise.all:");
-    console.log("Todo:", todo);
-    console.log("User:", user);
-})
-.catch(error => {
-    console.error("ERROR in Promise.all:", error);
-});
+	return fetch('https://jsonplaceholder.typicode.com/todos/1')
+		.then((response) => response.json())
+		.catch((error) => {
+			console.error('ERROR in getTodo:', error);
+		});
+}
 
-const promisesRace = Promise.race([getTodo(), getUser()])
-promisesRace.then(result => {
-    console.log("RESULT Promise.race:");
-    console.log(result);
-})
-    .catch(error => {
-      console.error("ERROR in Promise.race:", error);
-});
+function getUser() {
+	return fetch('https://jsonplaceholder.typicode.com/users/1')
+		.then((response) => response.json())
+		.catch((error) => {
+			console.error('ERROR in getUser:', error);
+		});
+}
+
+const promisesCollection = Promise.all([getTodo(), getUser()]);
+promisesCollection
+	.then(([todo, user]) => {
+		console.log('RESULT Promise.all:');
+		console.log('Todo:', todo);
+		console.log('User:', user);
+	})
+	.catch((error) => {
+		console.error('ERROR in Promise.all:', error);
+	});
+
+const promisesRace = Promise.race([getTodo(), getUser()]);
+promisesRace
+	.then((result) => {
+		console.log('RESULT Promise.race:');
+		console.log(result);
+	})
+	.catch((error) => {
+		console.error('ERROR in Promise.race:', error);
+	});
