@@ -2,9 +2,9 @@
 // Функція повинна вивести в консоль переданий текст через вказану кількість мілісекунд
 
 function delayedText(text, delay) {
-    setTimeout(() => {
-      console.log(text);
-    }, delay);
-  }
- 
-  delayedText("Some text here appeared after 5 sec", 5000);
+	setTimeout(() => {
+		console.log(text);
+	}, delay);
+}
+
+delayedText('Some text here appeared after 5 sec', 5000);
